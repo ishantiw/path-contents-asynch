@@ -1,10 +1,10 @@
 {
   "name": "path-contents-asynch",
   "version": "1.0.0",
-  "description": "To list all the files and folders in a given target path",
+  "description": "To get paths of all the files and folder under the given target path asynchronously",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "files",
@@ -17,6 +17,19 @@
     "and",
     "folder"
   ],
+  "bugs": {
+    "url": "https://github.com/ishantiw/path-contents-asynch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishantiw/path-contents-asynch"
+  },
   "author": "Ishan Tiwari <ishan210788@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "mock-fs": "^3.12.1"
+  }
 }
