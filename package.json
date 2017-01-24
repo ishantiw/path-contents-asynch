@@ -1,0 +1,22 @@
+{
+  "name": "path-contents-asynch",
+  "version": "1.0.0",
+  "description": "To list all the files and folders in a given target path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "files",
+    "asynch",
+    "file",
+    "read",
+    "filesystem",
+    "directory",
+    "files",
+    "and",
+    "folder"
+  ],
+  "author": "Ishan Tiwari <ishan210788@gmail.com>",
+  "license": "ISC"
+}
