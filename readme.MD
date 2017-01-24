@@ -14,16 +14,15 @@ For any clarifications please contact [Ishan](http://ishantiw.github.io)
 
 ```
   var pathContentAsynch = require('path-contents-asynch');
-
-  var contents = pathContentAsynch("views");
-
-  //to display all the content
-  console.log(contents);
-  //to display all the files
-  console.log('Files '+ contents.files);
-  //to display all folder and subfolders
-  console.log('Directories '+ contents.dirs);
-
+  var dir = './foo';
+  var contents = pathContentAsynch(dir).then((result) => {
+    //to display all the content
+    console.log(result);
+    //to display all the files
+    console.log('Files '+ result.files);
+    //to display all folder and subfolders
+    console.log('Directories '+ result.dirs);
+    });
 ```
 
 ## Tests
