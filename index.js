@@ -1,3 +1,4 @@
+'use strict';
 /**
 * Path Contents Asynch: A module which takes target path as an argument and returns contents in the form of filesnames and directories
 * @author Ishan Tiwari <ishan210788@gmail.com>

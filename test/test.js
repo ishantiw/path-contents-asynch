@@ -1,3 +1,4 @@
+'use strict';
 /**
 * Path Contents Asynch Testing: A module to test all the relevant functionality and results of pathContentsAsynch module
 * @author Ishan Tiwari <ishan210788@gmail.com>
@@ -5,7 +6,6 @@
 const expect = require('chai').expect;
 const chai = require('chai');
 const pathContentsAsynch = require('../index');
-const mock = require('mock-fs');
 const chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 
