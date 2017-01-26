@@ -1,6 +1,6 @@
 {
   "name": "path-contents-asynch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "To get paths of all the files and folder under the given target path asynchronously",
   "main": "index.js",
   "scripts": {
